@@ -1,0 +1,8 @@
+Directory structure
+----bin
+----conf
+----jar
+----lbf
+----service
+----server.sh
+----slots_env.sh
