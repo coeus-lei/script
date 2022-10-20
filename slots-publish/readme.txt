@@ -1,1 +1,1 @@
-some good things: https://mirrors.dtops.cc/
+some funny things: https://mirrors.dtops.cc/
