@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: shz
+  name: shz-service
+  namespace: ${NAMESPACE}
+spec:
+  ports:
+    - name: tcp1
+      port: 21051
+      protocol: TCP
+      targetPort: 21051
+  selector:
+    app: shz
+  sessionAffinity: None
+  #type: NodePort
+  #type: LoadBalancer
